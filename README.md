@@ -10,9 +10,8 @@ your-portfolio-repo/
 ├── assets/
 │   ├── css/
 │   │   └── style.css  # All your styling
-│   ├── js/
-│   │   └── script.js  # Interactivity (optional)
-│   └── img/           # Screenshots, logos, etc.
+│   └── js/
+│       └── script.js  # Interactivity (optional)
 ├── projects/          # Optional: separate HTML files for each project
 └── README.md          # GitHub repo description
 ```
@@ -23,7 +22,7 @@ This file contains the HTML structure of the portfolio.
 
 ### assets/css/style.css
 
-This file contains the CSS styles for the portfolio, including the custom button styles and the background animation.
+This file contains the CSS styles for the portfolio.
 
 ### assets/js/script.js
 

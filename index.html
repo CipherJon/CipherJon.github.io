@@ -7,25 +7,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="background-container"></div>
-    <div class="content-container">
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
         <section id="hero">
             <h1>Welcome to My Portfolio</h1>
             <p>Discover my work and projects</p>
-            <button class="button" data-text="Awesome">
-                <span class="actual-text">&nbsp;CipherJon&nbsp;</span>
-                <span aria-hidden="true" class="hover-text">&nbsp;CipherJon&nbsp;</span>
-            </button>
         </section>
 
         <section id="about">
@@ -57,17 +52,14 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" required></textarea>
                 
-                <button type="submit" class="button" data-text="Send">
-                    <span class="actual-text">&nbsp;Send&nbsp;</span>
-                    <span aria-hidden="true" class="hover-text">&nbsp;Send&nbsp;</span>
-                </button>
+                <button type="submit">Send</button>
             </form>
         </section>
+    </main>
 
-        <footer>
-            <p>&copy; 2025 CipherJon. All rights reserved.</p>
-        </footer>
-    </div>
+    <footer>
+        <p>&copy; 2025 CipherJon. All rights reserved.</p>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>

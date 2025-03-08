@@ -3,6 +3,7 @@ const themeToggle = document.querySelector('.theme-toggle');
 const currentTheme = localStorage.getItem('theme') || 'dark';
 
 document.documentElement.setAttribute('data-theme', currentTheme);
+themeToggle.innerHTML = currentTheme === 'dark' ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-sun"></i>';
 
 themeToggle.addEventListener('click', () => {
   const newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';

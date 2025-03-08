@@ -198,6 +198,95 @@ body[data-theme="light"] .project-card {
   border-radius: var(--border-radius);
 }
 
+/* About Section */
+.about-section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text {
+  background: var(--card-bg-dark);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+body[data-theme="light"] .about-text {
+  background: var(--card-bg-light);
+}
+
+.about-image {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 4rem 2rem;
+  background: var(--card-bg-dark);
+}
+
+body[data-theme="light"] .contact-section {
+  background: var(--card-bg-light);
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-group {
+  display: grid;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--accent-dark);
+  border-radius: var(--border-radius);
+  background: transparent;
+  color: inherit;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--accent-light);
+}
+
+.submit-btn {
+  background: var(--accent-dark);
+  color: var(--bg-dark);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar {

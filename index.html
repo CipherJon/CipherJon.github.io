@@ -1,84 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CipherJon - Portfolio</title>
-    <meta name="description" content="Professional portfolio of CipherJon showcasing web development projects and skills">
+    <title>CipherJon | Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing full-stack development projects and expertise">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand">
+                <span class="logo">CJ</span>
+                <span class="name">CipherJon</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Discover my work and projects</p>
-        </section>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm CipherJon, a passionate developer.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>PyScraper</h3>
-                <p>Python web scraping framework with advanced features.</p>
-                <a href="projects/pyscraper.html" class="project-link">View Details</a>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Building Digital Solutions</h1>
+                <p class="hero-subtitle">Full-Stack Developer &amp; Problem Solver</p>
             </div>
-        <div class="project">
-            <h3>PyBot</h3>
-            <p>A simple chatbot implemented in Python, enhanced with JavaScript for interactive web integration.</p>
-            <a href="projects/pybot.html" class="project-link">View Details</a>
-        </div>
-        <div class="project">
-            <h3>PyBudget</h3>
-            <p>Python-based personal budgeting application with expense tracking and financial insights.</p>
-            <a href="projects/pybudget.html" class="project-link">View Details</a>
-        </div>
-        <div class="project">
-            <h3>PyForcast</h3>
-            <p>Advanced weather prediction system using Python and machine learning with real-time data integration.</p>
-            <a href="projects/pyforcast.html" class="project-link">View Details</a>
-        </div>
-        <div class="project">
-            <h3>Pytasker</h3>
-            <p>Python-based task management application with Django backend and JavaScript frontend.</p>
-            <a href="projects/pytasker.html" class="project-link">View Details</a>
-        </div>
-    </section>
+        </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <form action="https://formspree.io/f/your-form-id" method="POST">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project cards will be populated from existing content -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="PyScraper">
+                        <div class="project-overlay">
+                            <a href="projects/pyscraper.html" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <h3>PyScraper</h3>
+                    <p>Python web scraping framework with advanced features</p>
+                </article>
+                <!-- Repeat for other projects -->
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <img src="https://via.placeholder.com/200" alt="Profile" class="profile-img">
+                <div class="bio">
+                    <h2 class="section-title">About Me</h2>
+                    <p>Full-stack developer specializing in Python and JavaScript ecosystems...</p>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-container">
+                <div class="social-links">
+                    <a href="https://github.com/CipherJon" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:contact@cipherjon.dev" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <form class="contact-form">
+                    <!-- Existing form fields -->
+                </form>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; <span id="copyright-year">2025</span> CipherJon. All rights reserved.</p>
+    <footer class="main-footer">
+        <p class="copyright">&amp;copy; <span id="copyright-year">2025</span> CipherJon. All rights reserved.</p>
+        <button class="back-to-top">&amp;uarr;</button>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

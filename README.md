@@ -1,42 +1,58 @@
-# My Portfolio
+# CipherJon - Professional Portfolio
 
-This is my personal portfolio hosted on GitHub Pages.
+[![GitHub License](https://img.shields.io/github/license/CipherJon/cipherjon.github.io)](https://github.com/CipherJon/cipherjon.github.io/blob/main/LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/deployed%20on-GitHub%20Pages-blue)](https://cipherjon.github.io)
 
-## File Structure
+Modern, responsive portfolio website showcasing development projects and professional skills.
 
-```
-your-portfolio-repo/
-├── index.html         # Main page
+## 🚀 Live Demo
+[https://cipherjon.github.io](https://cipherjon.github.io)
+
+## ✨ Features
+- Responsive design with mobile-first approach
+- Project showcase grid with hover effects
+- Interactive contact form with Formspree integration
+- Semantic HTML5 markup
+- CSS custom properties and modern grid layout
+- Smooth scroll navigation
+- Dynamic copyright year update
+
+## 🛠 Technologies
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+## 📁 File Structure
+```bash
+cipherjon.github.io/
+├── index.html          # Main entry point
 ├── assets/
 │   ├── css/
-│   │   └── style.css  # All your styling
+│   │   └── styles.css # Modern styling with CSS variables
 │   └── js/
-│       └── script.js  # Interactivity (optional)
-├── projects/          # Optional: separate HTML files for each project
-└── README.md          # GitHub repo description
+│       └── scripts.js # Interactive features
+├── projects/          # Project case studies
+└── README.md          # Project documentation
 ```
 
-### index.html
+## 🚦 Getting Started
+1. Clone repository
+```bash
+git clone https://github.com/CipherJon/cipherjon.github.io.git
+```
+2. Open in browser
+```bash
+open index.html
+```
 
-This file contains the HTML structure of the portfolio.
+## 📦 Deployment
+1. Push to GitHub repository
+2. Enable GitHub Pages in repository settings (Branch: main, Folder: /root)
 
-### assets/css/style.css
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This file contains the CSS styles for the portfolio.
-
-### assets/js/script.js
-
-This file contains any JavaScript needed for the portfolio.
-
-### README.md
-
-This file provides an overview of the portfolio and its structure.
-
-## How to Use
-
-1. Clone the repository to your local machine.
-2. Customize the content in `index.html` to add your personal information, projects, and contact details.
-3. Customize the styles in `assets/css/style.css` to match your personal preferences.
-4. Add any JavaScript functionality in `assets/js/script.js`.
-5. Push the changes to GitHub.
-6. Enable GitHub Pages in the repository settings to publish your portfolio.
+## 🙏 Acknowledgments
+- Formspree for contact form handling
+- Shields.io for status badges
+- GitHub Pages for hosting

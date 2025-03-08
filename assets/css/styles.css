@@ -130,7 +130,9 @@ body[data-theme="light"] {
   margin-bottom: 1rem;
   background: linear-gradient(45deg, var(--accent-dark), #00cc99);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .hero-subtitle {

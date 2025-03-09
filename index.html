@@ -1,135 +1,142 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CipherJon | Portfolio</title>
-    <meta name="description" content="Professional portfolio showcasing full-stack development projects and expertise">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Montserrat:wght=700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/rain-bg.css">
 </head>
-<body>
+<body data-theme="dark">
     <header class="main-header">
         <nav class="navbar">
             <div class="brand">
-                <span class="logo">CJ</span>
-                <span class="name">CipherJon</span>
+                <div class="logo">P</div>
+                <span>Portfolio</span>
             </div>
+            <button class="menu-toggle">☰</button>
             <ul class="nav-links">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button class="theme-toggle" aria-label="Toggle theme">
-                <i class="fas fa-moon"></i>
-            </button>
+            <button class="theme-toggle">🌙</button>
         </nav>
     </header>
 
-    <main>
-        <section id="hero" class="hero-section">
-            <div class="hero-content">
-                <h1 class="hero-title">Building Digital Solutions</h1>
-                <p class="hero-subtitle">Full-Stack Developer &amp; Problem Solver</p>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div>
+            <h1 class="hero-title">Creative Developer</h1>
+            <p class="hero-subtitle">Building innovative solutions with modern technology</p>
+        </div>
+    </section>
 
-        <section id="projects" class="projects-section">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/400x250" alt="PyScraper">
-                        <div class="project-overlay">
-                            <a href="projects/pyscraper.html" class="project-link">View Details</a>
-                        </div>
-                    </div>
-                    <h3>PyScraper</h3>
-                    <p>Python web scraping framework with advanced features</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/400x250" alt="PyBot">
-                        <div class="project-overlay">
-                            <a href="projects/pybot.html" class="project-link">View Details</a>
-                        </div>
-                    </div>
-                    <h3>PyBot</h3>
-                    <p>AI-powered chatbot with natural language processing</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/400x250" alt="PyBudget">
-                        <div class="project-overlay">
-                            <a href="projects/pybudget.html" class="project-link">View Details</a>
-                        </div>
-                    </div>
-                    <h3>PyBudget</h3>
-                    <p>Personal finance tracking and budget management tool</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/400x250" alt="PyForcast">
-                        <div class="project-overlay">
-                            <a href="projects/pyforcast.html" class="project-link">View Details</a>
-                        </div>
-                    </div>
-                    <h3>PyForcast</h3>
-                    <p>Weather forecasting application with real-time data</p>
-                </article>
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="https://via.placeholder.com/400x250" alt="PyTasker">
-                        <div class="project-overlay">
-                            <a href="projects/pytasker.html" class="project-link">View Details</a>
-                        </div>
-                    </div>
-                    <h3>PyTasker</h3>
-                    <p>Task management system with collaborative features</p>
-                </article>
-            </div>
-        </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project cards will be dynamically generated here -->
+        </div>
+    </section>
 
-        <section id="about" class="about-section">
-            <div class="about-content">
-                <img src="https://via.placeholder.com/200" alt="Profile" class="profile-img">
-                <div class="bio">
-                    <h2 class="section-title">About Me</h2>
-                    <p>Full-stack developer specializing in Python and JavaScript ecosystems...</p>
-                    <div class="skills">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                    </div>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-container">
+                    <p class="about-intro">I'm a budding developer with 3 months of experience, primarily working on Python projects with a focus on AI engineering.</p>
+                    <p>Currently expanding my skill set through hands-on projects, I'm diving into new areas of development to build practical, innovative solutions. My work focuses on:</p>
+                    <ul class="skills-list">
+                        <li>Developing AI-driven applications with Python</li>
+                        <li>Implementing clean, efficient code practices</li>
+                        <li>Exploring modern development tools and workflows</li>
+                        <li>Building responsive, user-friendly interfaces</li>
+                    </ul>
+                    <p>When I'm not coding, I enjoy researching emerging technologies and contributing to open-source projects that challenge me to grow as a developer.</p>
                 </div>
             </div>
-        </section>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/500x300" alt="Developer workstation with code editor open">
+        </div>
+    </section>
 
-        <section id="contact" class="contact-section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-content">
             <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-container">
-                <div class="social-links">
-                    <a href="https://github.com/CipherJon" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="mailto:contact@cipherjon.dev" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Your Name" required>
                 </div>
-                <form class="contact-form">
-                    <!-- Existing form fields -->
-                </form>
-            </div>
-        </section>
-    </main>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-input" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
-    <footer class="main-footer">
-        <p class="copyright">&amp;copy; <span id="copyright-year">2025</span> CipherJon. All rights reserved.</p>
-        <button class="back-to-top">&amp;uarr;</button>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const projects = [
+                {name: 'PyBot', file: 'projects/pybot.html', img: 'https://via.placeholder.com/300x200'},
+                {name: 'PyBudget', file: 'projects/pybudget.html', img: 'https://via.placeholder.com/300x200'},
+                {name: 'PyForcast', file: 'projects/pyforcast.html', img: 'https://via.placeholder.com/300x200'},
+                {name: 'PyScraper', file: 'projects/pyscraper.html', img: 'https://via.placeholder.com/300x200'},
+                {name: 'PyTasker', file: 'projects/pytasker.html', img: 'https://via.placeholder.com/300x200'},
+                {name: 'PyWord', file: 'projects/pyword.html', img: 'https://via.placeholder.com/300x200'}
+            ];
+
+            const grid = document.querySelector('.projects-grid');
+            
+            projects.forEach(project => {
+                const anchor = document.createElement('a');
+                anchor.className = 'card';
+                anchor.href = project.file;
+                
+                const title = document.createElement('h3');
+                title.textContent = project.name;
+                anchor.appendChild(title);
+                grid.appendChild(anchor);
+            });
+        });
+    </script>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Portfolio. All rights reserved.</p>
     </footer>
-
-    <script src="assets/js/scripts.js"></script>
 </body>
+<script>
+    // Theme Toggle
+    const themeToggle = document.querySelector('.theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        if (body.getAttribute('data-theme') === 'dark') {
+            body.setAttribute('data-theme', 'light');
+            themeToggle.textContent = '☀️';
+        } else {
+            body.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '🌙';
+        }
+    });
+
+    // Mobile Menu
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
 </html>

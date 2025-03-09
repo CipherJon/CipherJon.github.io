@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pytasker - CipherJon</title>
+    <title>PyWord - CipherJon</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="../assets/js/scripts.js" defer></script>
 </head>
 <body>
     <header class="main-header">
@@ -22,20 +24,19 @@
 
     <main class="projects-section">
         <div class="section-container">
-        <h1>Pytasker: Python Task Management Application</h1>
+        <h1>PyWord: Secure Password Generator</h1>
         <section class="description">
             <h2>Description</h2>
-            <p>A full-stack todo list application with Python backend and JavaScript frontend integration.</p>
+            <p>A Python-based password generation tool with configurable complexity options and secure randomness.</p>
         </section>
 
         <section class="features">
             <h2>Key Features</h2>
             <ul>
-                <li>CRUD operations for tasks</li>
-                <li>User authentication system</li>
-                <li>Due date tracking and reminders</li>
-                <li>Responsive web interface</li>
-                <li>REST API backend</li>
+                <li>Customizable password length (8-64 characters)</li>
+                <li>Multiple character set options</li>
+                <li>Password strength evaluation</li>
+                <li>CLI and web interface versions</li>
             </ul>
         </section>
 
@@ -43,15 +44,16 @@
             <h2>Technologies Used</h2>
             <ul>
                 <li>Python 3</li>
-                <li>Django framework</li>
-                <li>JavaScript/ES6</li>
-                <li>PostgreSQL</li>
-                <li>HTML5/CSS3</li>
+                <li>secrets module for secure randomness</li>
+                <li>argparse for CLI interface</li>
+                <li>HTML/JavaScript for web version</li>
+                <li>Regular expressions for validation</li>
             </ul>
         </section>
+        </div>
     </main>
 
-    <footer>
+    <footer class="main-footer">
         <p>&copy; 2025 CipherJon. All rights reserved.</p>
     </footer>
 </body>

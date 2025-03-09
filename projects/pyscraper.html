@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="../index.html#projects">Projects</a></li>
-                <li><a href="../index.html#contact">Contact</a></li>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand">
+                <div class="logo">CJ</div>
+                <span>CipherJon</span>
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="../index.html#about">About</a></li>
+                <li><a class="nav-link" href="../index.html#projects">Projects</a></li>
+                <li><a class="nav-link" href="../index.html#contact">Contact</a></li>
             </ul>
+            <button class="theme-toggle">🌓</button>
         </nav>
     </header>
 
-    <main class="project-detail">
+    <main class="projects-section">
+        <div class="section-container">
         <section>
             <h1>PyScraper</h1>
             <p class="project-subtitle">Python Web Scraping Framework</p>
@@ -54,7 +60,7 @@
     </main>
 
     <footer>
-        <p>&copy; <span id="copyright-year">2025</span> CipherJon. All rights reserved.</p>
+        <p>&copy; 2025 CipherJon. All rights reserved.</p>
     </footer>
 </body>
 </html>

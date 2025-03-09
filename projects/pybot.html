@@ -5,34 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PyBot - CipherJon</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Theme styles handled by main styles.css -->
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html#projects">Back to Projects</a></li>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand">
+                <div class="logo">CJ</div>
+                <span>CipherJon</span>
+            </div>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="../index.html#projects">Back to Projects</a></li>
             </ul>
+            <button class="theme-toggle">🌓</button>
         </nav>
     </header>
 
-    <main class="project-details">
+    <main class="projects-section">
+        <div class="section-container">
         <h1>PyBot: Python Chatbot with JavaScript Enhancements</h1>
-        <section class="description">
-            <h2>Description</h2>
+        <div class="project-card">
+            <section class="description">
+            <h2 class="section-subtitle">Description</h2>
             <p>A simple chatbot implemented in Python, enhanced with JavaScript for interactive web integration.</p>
-        </section>
+            </section>
+        </div>
 
         <section class="features">
-            <h2>Key Features</h2>
+            <h2 class="section-subtitle">Key Features</h2>
             <ul>
                 <li>Natural language processing for basic conversations</li>
                 <li>Web interface using JavaScript/HTML</li>
                 <li>Modular architecture for easy extension</li>
                 <li>User authentication system</li>
             </ul>
-        </section>
+            </section>
+        </div>
 
-        <section class="technologies">
+        <div class="project-card">
+            <section class="technologies">
             <h2>Technologies Used</h2>
             <ul>
                 <li>Python 3</li>
@@ -44,7 +55,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="main-footer">
         <p>&copy; 2025 CipherJon. All rights reserved.</p>
     </footer>
 </body>

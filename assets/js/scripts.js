@@ -36,8 +36,29 @@ function initBackToTop() {
     }
 }
 
+// Rain particle system
+function createRain() {
+    const rainContainer = document.createElement('div');
+    rainContainer.className = 'raindrops';
+    
+    // Create 150 raindrops
+    for (let i = 0; i < 150; i++) {
+        const raindrop = document.createElement('div');
+        raindrop.className = 'raindrop';
+        
+        // Random horizontal position and animation delay
+        raindrop.style.left = `${Math.random() * 100}vw`;
+        raindrop.style.animationDelay = `${Math.random() * 2}s`;
+        
+        rainContainer.appendChild(raindrop);
+    }
+    
+    document.body.appendChild(rainContainer);
+}
+
 // Initialize all components
 document.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initBackToTop();
+    createRain();
 });

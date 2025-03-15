@@ -421,12 +421,26 @@ body[data-theme="light"] footer {
     align-items: center;
   }
 
+  .menu-toggle {
+    display: block;
+  }
+
   .about-content {
     grid-template-columns: 1fr;
   }
 
   .project-image {
     height: 150px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+  
+  .nav-links {
+    display: flex;
   }
 }
 
